@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:700,300,100,400,600,800' rel='stylesheet' type='text/css'>
+
+    <title>Gatherings</title>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+            	
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <button type="button" class="create-event-mobile visible-xs"><span class="glyphicon glyphicon-bell" aria-hidden="true"></span><div class="notification">6</div></button>
+                <button type="button" class="create-event-mobile visible-xs"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+                <a class="navbar-brand" href="index.html"><img src="img/logo-white.png" alt="logo" width="auto" height="20"></a>
+                
+               
+            </div>
+            <!-- Top Menu Items -->
+            <ul class="nav navbar-right top-nav hidden-xs">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span> <b class="caret"></b></a>
+                    <ul class="dropdown-menu message-dropdown">
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>Samwise Gamgee</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>Samwise Gamgee</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>Samwise Gamgee</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-footer">
+                            <a href="#">Read All New Messages</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-bell" aria-hidden="true"></span> <div class="notification">6</div> <b class="caret"></b></a>
+                    <ul class="dropdown-menu alert-dropdown">
+                        <li>
+                            <a href="#">Alert Name</a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name</a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name</a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name</a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name</a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name</a>
+                        </li>
+                        <li>
+                            <a href="#">View All</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Samwise Gamgee <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-envelope"></i> Inbox</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-gear"></i> Settings</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+            
+            
+            <ul class="nav navbar-nav side-nav hidden-xs" id="sidebar-toggle-switch">
+            <a href="#menu-toggle" class="btn" id="menu-toggle"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></a>
+            </ul>
+            
+                <ul class="nav navbar-nav side-nav" id="sidebar-wrapper">
+                
+                
+                
+                	<div class="logo hidden-xs"><img src="img/logo-white.png" alt="logo" width="167" height="30" class="center-block"></div>
+                	
+                	
+                
+                	<div class="new-event hidden-xs">
+                	<a href="#" class="btn btn-default btn-primary btn-lg">Create New Event!</a>
+                	</div>
+                
+                    <li class="active">
+                        <a href="#"><span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span><div class="notification">4</div> Upcoming Events</a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span> Past Events</a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span> News</a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Friends</a>
+                    </li>
+                    
+                    <li class="visible-xs">
+                        <a href="#"><span class="glyphicon glyphicon-bell" aria-hidden="true"></span> Chats</a>
+                    </li>
+                    <li class="visible-xs">
+                        <a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Samwize Gamshee</a>
+                    </li>
+                    
+                    <!--div class="sign-out">
+                		<div class="btn-group btn-group-justified" role="group" aria-label="...">
+						<a href="#" class="btn btn-default btn-primary btn-lg">Sign Out</a>
+						<a href="#" class="btn btn-default btn-primary btn-lg">Switch User</a>
+					</div>
+					
+					
+                	</div-->
+                </ul>
+                
+                
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+        
+        
+        <div class="current-events">
+				<!--div class="event-choices">
+				<div class="col-xs-12">
+					<div class="btn-group btn-group-justified" role="group" aria-label="...">
+						<a href="#" class="btn btn-default btn-primary btn-lg active">Upcoming Events</a>
+						<!--a href="#" class="btn btn-default btn-primary btn-lg">Invites</a-->
+						<!--a href="#" class="btn btn-default btn-primary btn-lg">Past Events</a>
+					</div>
+				</div>
+				</div-->
+           </div>
+           
+		        	
+		      <div class="events-nav">
+		      
+		      <div class="container-fluid main-content">
+				<div class="row">
+				
+				<div class="col-sm-12 visible-xs" style="padding:0;">
+				<div class="dropdown dropdown-left">
+				  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+				    View All
+				    <span class="caret"></span>
+				  </button>
+				  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+				    <li role="presentation" class="active"><a href="#">View All</a></li>
+					<li role="presentation"><a href="#">Hosted Events</a></li>
+					<li role="presentation"><a href="#">Invited Events</a></li>
+				  </ul>
+				</div>
+				
+				<div class="dropdown dropdown-right">
+				  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+				    List View
+				    <span class="caret"></span>
+				  </button>
+				  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+				    <li role="presentation" class="active list-view-btn"><a href="#"><span class="glyphicon glyphicon-th" aria-hidden="true"></span>List View</a></li>
+						  <li role="presentation" class="calendar-view-btn"><a href="#"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>Calendar</a></li>
+				  </ul>
+				</div>
+				
+				
+				</div>
+
+
+					<div class="col-sm-12 hidden-xs" style="padding-right:0;padding-left:0;">
+		        		<ul class="nav nav-pills nav-left">
+						  <li role="presentation" class="active"><a href="#">View All</a></li>
+						  <li role="presentation"><a href="#">Hosted Events</a></li>
+						  <li role="presentation"><a href="#">Invited Events</a></li>
+						</ul>
+						
+						
+						<ul class="nav nav-pills navbar-right">
+						  <li role="presentation" class="active list-view-btn"><a href="#"><span class="glyphicon glyphicon-th" aria-hidden="true"></span>List View</a></li>
+						  <li role="presentation" class="calendar-view-btn"><a href="#"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>Calendar</a></li>
+						</ul>
+		        	</div>
+				</div>
+		      </div>
+		      </div>
+            
+            
+            
+
+        <div id="page-wrapper page-content-wrapper listed-events">
+			
+            <div class="container-fluid main-content">
+            	
+		        
+            	
+            	<div class="row">
+            	
+            	<div class="new-event-mobile visible-xs">
+			        <div class="col-sm-6 col-md-4 col-xs-12">
+		            	
+		                	<a href="#" class="btn btn-default btn-primary btn-lg">Create New Event!</a>
+		            </div>
+		        </div>
+            	</div>
+            	
+            	<div class="list-view-events">
+            	<div class="row">
+	            	<div class="current-events">
+		            	<div class="col-sm-6 col-md-4 col-xs-12">
+								<div class="event-list">
+								
+								
+									<div class="event-img">
+									<div class="rollover">
+										<img src="http://lorempixel.com/680/485/business" width="680" height="485"  />
+									</div>
+									</div>
+									
+									<div class="event-info">
+									
+									<div class="hosted-by">
+											<h6>Hosted By <a href="#">Johny Walker</a></h6>
+										</div>
+									
+									<div class="user-img2">
+											<img src="img/user.png" alt="user" width="50" height="50">
+										</div>
+										
+										
+										<div class="module2 fade2">
+											<h4>Party Bus</h4>
+										</div>
+										
+										<div class="module fade">
+										  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+										</div>
+										<h5><a href="#">View More</a></h5>
+										
+										<!--div class="user-img">
+											<img src="img/user.png" alt="user" width="50" height="50">
+										</div>
+										<h6>Hosted By <a href="#">Johny Walker</a></h6-->
+										
+										<div class="event-bottom">
+											<div class="days-left">
+												<h2>16</h2>
+												Days Left
+											</div>
+											<div class="attendees">
+												<h2>102</h2>
+												Attendees
+											</div>
+										</div>
+										
+										
+									</div>
+								</div>
+								
+						</div>
+	            	</div>
+	            	
+	            	<div class="current-events">
+		            	<div class="col-sm-6 col-md-4 col-xs-12">
+								<div class="event-list">
+								
+								
+									<div class="event-img">
+									<div class="rollover">
+										<img src="http://lorempixel.com/680/485/nightlife" width="680" height="485"  />
+									</div>
+									</div>
+									
+									<div class="event-info">
+									
+									<div class="hosted-by">
+											<h6>Hosted By <a href="#">Brenden Fraser</a></h6>
+										</div>
+									
+									<div class="user-img2">
+											<img src="img/user.png" alt="user" width="50" height="50">
+										</div>
+										
+										<div class="module2 fade2">
+											<h4>Class Out the Ass Christmas Party</h4>
+										</div>
+										
+										<div class="module fade">
+										  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+										</div>
+										<h5><a href="#">View More</a></h5>
+										
+										<!--div class="user-img">
+											<img src="img/user.png" alt="user" width="50" height="50">
+										</div>
+										<h6>Hosted By <a href="#">Johny Walker</a></h6-->
+										
+										<div class="event-bottom">
+											<div class="days-left">
+												<h2>45</h2>
+												Days Left
+											</div>
+											<div class="attendees">
+												<h2>37</h2>
+												Attendees
+											</div>
+										</div>
+										
+										
+									</div>
+								</div>
+								
+						</div>
+	            	</div>
+	            	
+	            	<div class="current-events">
+		            	<div class="col-sm-6 col-md-4 col-xs-12">
+								<div class="event-list">
+								
+								
+									<div class="event-img">
+									<div class="rollover">
+										<img src="http://lorempixel.com/680/485/cats" width="680" height="485"  />
+									</div>
+									</div>
+									
+									<div class="event-info">
+									
+									<div class="hosted-by">
+											<h6>Hosted By <a href="#">Debra Nortan</a></h6>
+										</div>
+									
+									<div class="user-img2">
+											<img src="img/user.png" alt="user" width="50" height="50">
+										</div>
+										
+										
+										<div class="module2 fade2">
+											<h4>Tailgate</h4>
+										</div>
+										
+										<div class="module fade">
+										  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+										</div>
+										<h5><a href="#">View More</a></h5>
+										
+										<!--div class="user-img">
+											<img src="img/user.png" alt="user" width="50" height="50">
+										</div>
+										<h6>Hosted By <a href="#">Johny Walker</a></h6-->
+										
+										<div class="event-bottom">
+											<div class="days-left">
+												<h2>21</h2>
+												Days Left
+											</div>
+											<div class="attendees">
+												<h2>74</h2>
+												Attendees
+											</div>
+										</div>
+										
+										
+									</div>
+								</div>
+								
+						</div>
+	            	</div>
+	            	
+	            	<div class="current-events">
+		            	<div class="col-sm-6 col-md-4 col-xs-12">
+								<div class="event-list">
+								
+								
+									<div class="event-img">
+									<div class="rollover">
+										<img src="http://lorempixel.com/680/485/city" width="680" height="485"  />
+									</div>
+									</div>
+									
+									<div class="event-info">
+									
+									<div class="hosted-by">
+											<h6>Hosted By <a href="#">John Snow</a></h6>
+										</div>
+									
+									<div class="user-img2">
+											<img src="img/user.png" alt="user" width="50" height="50">
+										</div>
+										
+										
+										<div class="module2 fade2">
+											<h4>Halloween Party</h4>
+										</div>
+										
+										<div class="module fade">
+										  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+										</div>
+										<h5><a href="#">View More</a></h5>
+										
+										<!--div class="user-img">
+											<img src="img/user.png" alt="user" width="50" height="50">
+										</div>
+										<h6>Hosted By <a href="#">Johny Walker</a></h6-->
+										
+										<div class="event-bottom">
+											<div class="days-left">
+												<h2>12</h2>
+												Days Left
+											</div>
+											<div class="attendees">
+												<h2>8</h2>
+												Attendees
+											</div>
+										</div>
+										
+										
+									</div>
+								</div>
+								
+						</div>
+	            	</div>
+	            	
+	            	<div class="current-events">
+		            	<div class="col-sm-6 col-md-4 col-xs-12">
+								<div class="event-list">
+								
+								
+									<div class="event-img">
+									<div class="rollover">
+										<img src="http://lorempixel.com/680/485/fashion" width="680" height="485"  />
+									</div>
+									</div>
+									
+									<div class="event-info">
+									
+									<div class="hosted-by">
+											<h6>Hosted By <a href="#">Rob Stark</a></h6>
+										</div>
+									
+									<div class="user-img2">
+											<img src="img/user.png" alt="user" width="50" height="50">
+										</div>
+										
+										
+										<div class="module2 fade2">
+											<h4>Sausage Fest</h4>
+										</div>
+										
+										<div class="module fade">
+  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+</div>
+										<h5><a href="#">View More</a></h5>
+										
+										<!--div class="user-img">
+											<img src="img/user.png" alt="user" width="50" height="50">
+										</div>
+										<h6>Hosted By <a href="#">Johny Walker</a></h6-->
+										
+										<div class="event-bottom">
+											<div class="days-left">
+												<h2>56</h2>
+												Days Left
+											</div>
+											<div class="attendees">
+												<h2>207</h2>
+												Attendees
+											</div>
+										</div>
+										
+										
+									</div>
+								</div>
+								
+						</div>
+	            	</div>
+	            	
+	            	<div class="current-events">
+		            	<div class="col-sm-6 col-md-4 col-xs-12">
+								<div class="event-list">
+								
+								
+									<div class="event-img">
+									<div class="rollover">
+										<img src="http://lorempixel.com/680/485/people" width="680" height="485"  />
+									</div>
+									</div>
+									
+									<div class="event-info">
+									
+									<div class="hosted-by">
+											<h6>Hosted By <a href="#">Johny Walker</a></h6>
+										</div>
+									
+									<div class="user-img2">
+											<img src="img/user.png" alt="user" width="50" height="50">
+										</div>
+										
+										
+										<div class="module2 fade2">
+											<h4>Presidents Day Party</h4>
+										</div>
+										
+										<div class="module fade">
+  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+</div>										<h5><a href="#">View More</a></h5>
+										
+										<!--div class="user-img">
+											<img src="img/user.png" alt="user" width="50" height="50">
+										</div>
+										<h6>Hosted By <a href="#">Johny Walker</a></h6-->
+										
+										<div class="event-bottom">
+											<div class="days-left">
+												<h2>25</h2>
+												Days Left
+											</div>
+											<div class="attendees">
+												<h2>15</h2>
+												Attendees
+											</div>
+										</div>
+										
+										
+									</div>
+								</div>
+								
+						</div>
+	            	</div>
+            	
+	            	
+	            	
+	            	
+	            	
+	            	
+	            	
+            	
+            	
+            	
+            	</div>
+				<!--END ROW-->
+				</div><!--END LIST VIEW EVENTS-->
+				</div>
+            <!-- /.container-fluid -->
+            
+           
+            
+            
+
+        </div>
+        <!-- /#page-wrapper -->
+        
+				
+				
+			<div id="page-wrapper page-content-wrapper" >
+			
+	            <div class="container-fluid main-content">
+					
+					 <!--CALENDAR-->
+					 <div class="row calendar-events none">
+						
+						<div class="col-xs-12">
+							<div id="calendar"></div>
+						</div>
+					 </div>
+					
+					<!--END-->
+					
+	            </div>
+			</div>
+				
+				
+				
+                
+            
+        
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="Scripts/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/calendar.js"></script>
+    <script src="Scripts/script.js"></script>
+    
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+
+</body>
+
+</html>
